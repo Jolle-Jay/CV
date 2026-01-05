@@ -5,8 +5,8 @@
 :root {
     --text-main: #1f2933;
     --text-muted: #6b7280;
-    --accent: #28b2b5;
-    --bg-soft: #288bab;
+    --accent: #020259;
+    --bg-soft: #0c4300;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
     width: 300px;
     padding: 30px 20px;
     flex-shrink: 0;
-    background-color: #6d7276;
+    background-color: #9fa9b3;
     color: var(--text-main);
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body {
     display: block;
     width: 250px;
     height: 2px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 8px;
 }
 
@@ -83,7 +83,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin: 8px auto 0;
     transition: width 0.3s ease;
 }
@@ -101,7 +101,7 @@ body {
     display: block;
     width: 250px;
     height: 2px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin: 8px auto 0;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .sidebar .title {
-    color: #939598;
+    color: #2a2a2b;
     margin-bottom: none;
     margin-top: 1px;
 }
@@ -159,7 +159,7 @@ body {
     display: block;
     width: 300px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 8px;
 }
 
@@ -207,7 +207,7 @@ body {
     padding-bottom: 10px;
     font-weight: 600;
     color: #222;
-    border-bottom: 3px solid #28b2b5;
+    border-bottom: 3px solid #0f5100;
 }
 
 .content h2 {
@@ -260,7 +260,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin: 8px auto 0;
     transition: width 0.3s ease;
 }
@@ -288,7 +288,7 @@ body {
 
 /* Card */
 .card-wrapper {
-    background-color: #6d7276;
+    background-color: #9fa9b3;
     padding: 20px 30px;
     border-radius: 30px;
     box-shadow: 0 16px 40px rgba(0, 1, 0, 0.40);
@@ -307,16 +307,44 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.card h3::after {
+
+
+.card-w::after {
     content: "";
     display: block;
 
-    width: 400px;
+    width: 190px;
     height: 1px;
     background-color: #0f1010;
     margin-top: 2px auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-w2::after {
+    content: "";
+    display: block;
+
+    width: 320px;
+    height: 1px;
+    background-color: #0f1010;
+    margin-top: 2px auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-w3::after {
+    content: "";
+    display: block;
+
+    width: 280px;
+    height: 1px;
+    background-color: #0f1010;
+    margin-top: 2px auto;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .card2 {
@@ -381,7 +409,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 10px;
     margin-bottom: 2px;
 }
@@ -391,7 +419,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 2px;
 }
 
@@ -400,7 +428,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 10px;
     margin-bottom: 6px;
 }
@@ -410,7 +438,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 8px;
 }
 
@@ -419,7 +447,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 2px;
 }
 
@@ -428,7 +456,7 @@ body {
     display: block;
     width: 1000px;
     height: 1px;
-    background-color: #28b2b5;
+    background-color: #0f5100;
     margin-top: 2px;
 }
 
